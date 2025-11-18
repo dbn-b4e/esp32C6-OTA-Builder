@@ -1,5 +1,8 @@
 # ESP32 Zigbee OTA File Generator & Workflow
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Complete toolkit for...
 Complete toolkit for generating and managing Zigbee OTA files for ESP32-C6/H2 devices, with full Zigbee2MQTT integration support.
 
 ## Features
