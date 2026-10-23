@@ -1,5 +1,14 @@
 # ESP32 Zigbee OTA Builder
 
+> **Maintenance déplacée vers [esp32-firmware-tools](https://github.com/dbn-b4e/esp32-firmware-tools).**
+> Les générateurs full/diff, leurs tests et licences sont désormais dans son
+> dossier [`ota/`](https://github.com/dbn-b4e/esp32-firmware-tools/tree/main/ota).
+> Ce dépôt reste disponible pour son historique ; les évolutions se font dans
+> le dépôt commun. Son historique a été conservé lors de la fusion.
+>
+> Pour les nouvelles installations : cloner `esp32-firmware-tools`, puis
+> utiliser `python3 ota/zigbee_ota_generator.py` ou `python3 ota/delta_ota.py`.
+
 Create and inspect full Zigbee OTA containers, or generate a verified differential
 update between two exact ESP32-C6 application binaries.
 
